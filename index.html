@@ -11,7 +11,7 @@
 <body>
     
     <!-- navbar -->
-     <nav class="navbar navbar-expand-lg bg-transparent">
+     <nav class="navbar navbar-expand-lg bg-light fixed-top ">
       <div class="container">
         <a class="navbar-brand" href="#">♠Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
     <!-- akhir navbar -->
   <!-- jumbotron -->
   <section class="jumbotron" id="jumbotron">
-    <div class="container ">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-sm-5 text-center">
           <img src="img/alexanders.jpg" alt="foto" class="hero" />
@@ -52,7 +52,7 @@
   <section class="about" id="about">
     <div class="container mt-5">
       <div class="row">
-        <div class="col-sm-6 text-center">
+        <div class="col-sm-5 offset-sm-1">
           <h1>My Career So Far</h1>
         </div>
       </div>
@@ -60,7 +60,7 @@
         <div class="col-sm-5">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aperiam error culpa ratione, vel optio dolor odio illo exercitationem libero fugiat laborum iste eum ducimus nisi facere nihil repellendus, natus cupiditate quae labore est amet! Officia similique, quidem, suscipit aspernatur fugit vel voluptates, fugiat obcaecati aut, error architecto laudantium repellendus.</p>
         </div>
-        <div class="col-sm-5 mt-3">
+        <div class="col-sm-5">
           <a href="#" class="m-1 btn btn-outline-dark shadow-sm fw-bold">html/css</a>
           <a href="#" class="m-1 btn btn-outline-dark shadow-sm fw-bold">html/css</a>
           <a href="#" class="m-1 btn btn-outline-dark shadow-sm fw-bold">html/css</a>
@@ -78,9 +78,9 @@
   <!-- aboutme end -->
   <!-- work start -->
   <section class="work" id="work">
-    <div class="container">
+    <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-sm-6 text-center">
+        <div class="col-sm-5 offset-sm-1">
           <h1>On Working With Me</h1>
         </div>
       </div>
@@ -99,12 +99,12 @@
   <!-- work end -->
   <!-- form -->
   <section class="form" id="form">
-    <div class="container-sm ">
+    <div class="container mt-5 mb-5">
       <div class="row justify-content-center">
-        <div class="col-sm-4">
+        <div class="col-sm-5 borss">
           <h1>Want To Get In Touch?</h1>
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-5 borrs">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -112,6 +112,7 @@
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button class="btn btn-primary mt-1">Send</button>
           </div>
         </div>
       </div>
@@ -123,14 +124,28 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <a href="" class="navbar-brand">abogoboga</a>
+          <a href="#" class="navbar-brand">abogoboga</a>
         </div>
-        <div class="col-sm-6 me-end">
-          <ul class="navbar-nav ">
-            <li class="nav-item"><a class="nav-link"href="">about</a></li>
-            <li class="nav-item"><a class="nav-link"href="">about</a></li>
-            <li class="nav-item"><a class="nav-link"href="">about</a></li>
+        <div class="col-sm-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <p>&copy; Copyright Ahnafi 2022</p>
         </div>
       </div>
     </div>
