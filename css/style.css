@@ -1,6 +1,9 @@
 body {
   background-color: ;
 }
+.container {
+  margin-bottom: 50px;
+}
 .jumbotron {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -13,3 +16,5 @@ body {
   width: 100px;
   border-radius: 50%;
 }
+
+
